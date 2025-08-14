@@ -1,4 +1,4 @@
-# 🏭 ZEZE ONE Smart Factory
+# 🏭 VODA
 
 **VODA**는 AI 기반 결함 감지와 품질 등급 분류를 자동화하는 스마트 팩토리 시스템입니다.  
 하드웨어(Arduino + Raspberry Pi)와 소프트웨어(Frontend, Backend, AI 서버) 전반을 아우르며, Google Cloud Storage와 CI/CD 자동화를 통해 안정적이고 효율적인 생산 품질 관리 환경을 제공합니다.

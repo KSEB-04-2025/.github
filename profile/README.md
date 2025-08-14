@@ -41,7 +41,7 @@
 | Component | Repository | Description |
 | :--- | :--- | :--- |
 | 🖥️ **Frontend** | [`VODA_FE`](https://github.com/ZEZEONE-VODA/VODA_FE) | **실시간 품질 모니터링 대시보드.** Next.js 기반으로 생산 현황, 불량률, 데이터 시각화를 제공합니다. |
-| ⚙️ **Embedded** | [`VODA_EMB`](https://github.com/ZEZEONE-VODA/VODA_EMB) | **물리 제어 게이트웨이.** Raspberry Pi & Arduino가 컨베이어 벨트, 센서, 카메라를 제어하고 데이터를 각 서버에 전송합니다. |
+| ⚙️**Embedded** | [`VODA_EMB`](https://github.com/ZEZEONE-VODA/VODA_EMB) | **물리 제어 게이트웨이.** Raspberry Pi & Arduino가 컨베이어 벨트, 센서, 카메라를 제어하고 데이터를 각 서버에 전송합니다. |
 | 🧠 **AI: Defect** | [`VODA_S1_DEFECT`](https://github.com/ZEZEONE-VODA/VODA_S1_DEFECT) | **YOLO 기반 결함 탐지 API.** FastAPI로 구현되었으며, 제품의 결함 유무를 정확하게 판별합니다. |
 | 🔬 **Classify** | [`VODA_S2_CLASSIFY`](https://github.com/ZEZEONE-VODA/VODA_S2_CLASSIFY) | **Green Dot 기반 등급 분류 API.** OpenCV와 클러스터링 알고리즘으로 제품을 A/B 등급으로 분류합니다. |
 | 🗄️ **Backend** | [`VODA_BE`](https://github.com/ZEZEONE-VODA/VODA_BE) | **중앙 API 서버.** Spring Boot 기반으로 사용자 인증, 데이터 관리 등 핵심 비즈니스 로직을 담당합니다. |
@@ -65,7 +65,7 @@
     -   AI 서버는 YOLO 모델로 이미지를 분석하여 불량(`X`) 또는 정상(`GO`) 신호를 즉시 반환합니다.
 
 -   **📊 품질 등급 분류 (SNAP 2)**
-    -   두 번째 센서 지점에서 등급 판정용 이미지를 촬영하여 **Classification AI Server**로 전송합니다.
+    -   두 번째 센서 지점에서 등급 판정용 이미지를 촬영하여 **Classification Server**로 전송합니다.
     -   서버는 Green Dot의 분포와 밀집도를 분석하여 제품을 `A` 또는 `B` 등급으로 분류합니다.
 
 -   **📈 인터랙티브 대시보드**

@@ -1,8 +1,6 @@
-<img width="120" height="120" alt="ChatGPT Image 2025년 8월 13일 오후 05_47_29" src="https://github.com/user-attachments/assets/c8ba6c8e-752a-42bf-8102-fe2d8efa7d56" />
-
 # 🏭 ZEZE ONE Smart Factory
 
-**ZEZE ONE**은 AI 기반 결함 감지와 품질 등급 분류를 자동화하는 스마트 팩토리 시스템입니다.  
+**VODA**는 AI 기반 결함 감지와 품질 등급 분류를 자동화하는 스마트 팩토리 시스템입니다.  
 하드웨어(Arduino + Raspberry Pi)와 소프트웨어(Frontend, Backend, AI 서버) 전반을 아우르며, Google Cloud Storage와 CI/CD 자동화를 통해 안정적이고 효율적인 생산 품질 관리 환경을 제공합니다.
 
 ---
